@@ -233,3 +233,6 @@ if __name__=="__main__":
       masuk=login()
       cokie=masuk["cookie"]
       id=masuk["id"]
+        menu()
+   except Exception as e:
+      sys.exit(f"{er}{e}")
