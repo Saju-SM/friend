@@ -216,7 +216,7 @@ def pilih_menu():
                break
        print()
        input(f"{d}[ {c}Press Enter To Back {d}]")
-       os.system("python run.py")
+       os.system("python friend.py")
     else:
        print(f"{er}Pilih yg bener coeg")
        pilih_menu()
